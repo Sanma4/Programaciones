@@ -9,6 +9,23 @@
     color: white;
 }
 
+.contenedor{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
+
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
 /*encabezado*/
 
 
@@ -139,11 +156,12 @@ header ul a{
   left: 91.5%;
 }
 
-.iconos svg {
+.iconos svg{
   color: black;
   height: 25px;
   width: 25px;
 }
+
 
 /*login*/
 
