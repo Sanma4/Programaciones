@@ -1,0 +1,248 @@
+/*General*/
+
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+/*encabezado*/
+
+.encabezado {
+
+    background-color: rgb(4, 94, 126);
+    display: flex;
+    color: white;
+    text-decoration:none;
+    font-family: 'Secular One', sans-serif;
+    padding:  10px;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    font-weight: bold;
+    
+}
+
+.logo {
+    margin-top: 10px;
+    width: 60px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+header ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    padding: 5px;
+}
+
+.plataformas{
+    font-size: 2rem;
+    margin-left: 350px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.login{
+    margin-left: 180px;
+}
+
+/*Texto Gamebag*/
+.links{
+
+}
+
+.texto-ofertas{
+    text-decoration: none;
+    display: flex;
+    padding-left: 45px;
+    font-size: 35px;
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.logos-contenedor{
+  position: relative;
+}
+
+.iconos {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.links:hover a {
+  opacity: 0.3;
+}
+
+.links:hover .iconos {
+  opacity: 2;
+}
+
+
+
+.iconos {
+  display: flex;
+}
+
+#texto {
+  margin-top: 10px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.acomodar{
+  top: 49%;
+  left: 19%;
+}
+
+.acomodar-pc {
+  top: 49%;
+  left: 47%;
+}
+
+.acomodar-ps{
+  top: 49%;
+  left: 57%;
+}
+
+.acomodar-xbx{
+  top: 49%;
+  left: 64%;
+}
+
+.acomodar-n{
+  top: 49%;
+  left: 71%;
+}
+
+.acomodar-l{
+  top: 23%;
+  left: 87.5%;
+}
+.acomodar-r{
+  top: 23%;
+  left: 91.5%;
+}
+
+.iconos svg {
+  color: black;
+  height: 25px;
+  width: 25px;
+}
+
+/*login*/
+
+.titlo-login{
+  margin-top: 100px;
+}
+/*footer*/
+#footer{
+    display: flex;
+    color: white;
+    background-color: rgb(4, 94, 126);
+    font-family: 'Secular One', sans-serif;
+    padding-bottom: 50px;
+    
+    
+}
+
+footer ul{
+    margin-top: 80px;
+    font-size: 1.5rem;
+    margin-left: 300px;
+
+}
+
+/*ofertas*/
+
+
+.proyectos-recientes {
+    margin-top: 1000px;
+    padding: 40px;
+    background-color: #f5821f;
+    
+  }
+  
+  .seccion-titulo{
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay svg {
+    color: black;
+    font-size: 60px;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+  }
+
+.poverlay{
+    margin-left: 60px;
+    color: black;
+}
+
