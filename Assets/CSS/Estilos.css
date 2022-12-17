@@ -11,7 +11,8 @@
 
 /*encabezado*/
 
-.encabezado {
+@media screen and (max-width: 767px;){
+  .encabezado {
 
     background-color: rgb(4, 94, 126);
     display: flex;
@@ -25,6 +26,7 @@
     left: 0;
     position: fixed;
     font-weight: bold;
+  }
     
 }
 
@@ -55,9 +57,7 @@ header ul a{
 }
 
 /*Texto Gamebag*/
-.links{
 
-}
 
 .texto-ofertas{
     text-decoration: none;
