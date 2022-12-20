@@ -10,10 +10,7 @@
 }
 
 .contenedor{
-  width: 100%;
-  max-width: 1900px;
-  margin: auto;
-  width: 100%;
+ max-width: 2000px;
 }
 
 /*encabezado*/
@@ -33,6 +30,7 @@
     left: 0;
     position: fixed;
     font-weight: bold;
+    width: 100%;
     
 }
 
